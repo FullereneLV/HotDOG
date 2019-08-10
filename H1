@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Crud Hot Dog</title>
+ <link rel="stylesheet" type="text/css" href="Style.css">
+<body bgcolor="#fff8dc">
+	<style>
+	
+	 button {
+	
+ 	background-color: #ff6347;
+ 	border: none;
+ 	width: 300px;
+ 	height: 50px;
+ 	line-height: 50px;
+ 	margin: 25px 0;
+ 	position: relative;
+ 	cursor: pointer;
+ 	overflow: hidden;
+ 	border-radius: 5px;
+ 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+ 	-webkit-transition: width 2s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+ 			transition: width 2s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+
+</style>
+
+<h3 align="center" style="color:#ff7f50">Hot dog</h3>
+ <img src="hot1.jpg" width="100%" height="30%"><br/>
+<div>
+<button class="button" type="button" onclick="alert('You can create hot dog')">Create a hot dog</button>
+</div>
+<div>
+<button class="button" type="button" onclick="alert('Good choice')">Read all hot dog</button>
+</div>
+<div>
+<button class="button" type="button" onclick="alert('Something else to add')">Update a hot dog</button>
+</div>
+<div><button class="button" type="button" onclick="alert('Please select another one')">Delete a hot dog</button>
+</div>
+</body>
+</html>
